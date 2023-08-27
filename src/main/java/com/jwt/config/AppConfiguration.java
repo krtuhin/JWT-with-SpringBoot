@@ -15,6 +15,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 public class AppConfiguration {
 
     //in memory user details
+    /*
     @Bean
     public UserDetailsService userDetailsService() {
 
@@ -28,6 +29,7 @@ public class AppConfiguration {
 
         return new InMemoryUserDetailsManager(user, uaer1);
     }
+    */
 
     //password encoder
     @Bean
